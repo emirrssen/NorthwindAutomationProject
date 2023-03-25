@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entity.Concrete;
@@ -14,10 +16,13 @@ namespace Business.Concrete
     public class EmployeeManager : IEmployeeService
     {
         private IEmployeeDal _employeeDal;
+
         public EmployeeManager(IEmployeeDal employeeDal)
         {
             _employeeDal = employeeDal;
         }
+
+        [ValidationAspect(typeof(EmployeeValidator))]
         public IResult AddEmployee(Employee employee)
         {
             _employeeDal.Add(employee);
@@ -30,6 +35,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.EmployeeDeleted);
         }
 
+        [ValidationAspect(typeof(EmployeeValidator))]
         public IResult UpdateEmployee(Employee employee)
         {
             _employeeDal.Update(employee);

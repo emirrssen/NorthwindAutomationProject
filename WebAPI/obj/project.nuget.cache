@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4o0dSvutt71XaW+hCv9YYxa7HkJ4IrjzBZhpkCY5mBhfFctni5gsqAB5wzzKzcXscNR01TGGS3UwUM/IZHBQRQ==",
+  "dgSpecHash": "OFTVDuOm+PuDumQslzxHSMy8xAESY8li56FnnGZDjYAZRGF6wrg21JRcf068nIWAfhkNWufz4cuUlaVaA/sg/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\emirr\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\emirr\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

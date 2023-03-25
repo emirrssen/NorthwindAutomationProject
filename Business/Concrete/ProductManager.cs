@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entity.Concrete;
@@ -14,10 +16,13 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
+
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
         }
+
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult AddProduct(Product product)
         {
             _productDal.Add(product);
@@ -30,6 +35,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductDeleted);
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult UpdateProduct(Product product)
         {
             _productDal.Update(product);

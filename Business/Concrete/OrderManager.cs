@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entity.Concrete;
@@ -14,10 +16,13 @@ namespace Business.Concrete
     public class OrderManager : IOrderService
     {
         private IOrderDal _orderDal;
+
         public OrderManager(IOrderDal orderDal)
         {
             _orderDal = orderDal;
         }
+
+        [ValidationAspect(typeof(OrderValidator))]
         public IResult AddOrder(Order order)
         {
             _orderDal.Add(order);
@@ -30,6 +35,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.OrderDeleted);
         }
 
+        [ValidationAspect(typeof(OrderValidator))]
         public IResult UpdateOrder(Order order)
         {
             _orderDal.Update(order);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+m9zccScXKR5JGcn2kkRohfxqpDPRNsINrKfaTYryMDdLNop2OwmaE7EYR2AW1nHUsNKtX49CB801nVpWL0RQw==",
+  "dgSpecHash": "r6ie9J3J9XI8qDJwKJ3sWv/56YUds4WnDLbfNb7v1TuAFVCuoS1dGOVRx//+5AN5AUHOPT6qePPYTIB6+RI8Iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\emirr\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\emirr\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",

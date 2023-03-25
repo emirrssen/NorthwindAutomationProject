@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r4J8wDC3XMvNnQNRf7NN4Z7v/PFiIBxm7A2yYXkrA+rNYJFtv3mIdFNCKg78fJIy+F1WFyewW2dTpiooqmQ5bg==",
+  "dgSpecHash": "+VIyMyTy7Y0sU5ec5nR/w6B38D5B8GpnHdEJ9NqBmJYJOUUZRzyjuAT26TS57RxMY80Caw/lOq53ENQgFjdZSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\emirr\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\emirr\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\emirr\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
