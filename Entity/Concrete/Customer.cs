@@ -9,7 +9,7 @@ namespace Entity.Concrete
 {
     public class Customer : IEntity
     {
-        public string CustomerId { get; set; }
+        public int CustomerId { get; set; }
         public string CompanyName { get; set; }
         public string? ContactName { get; set; }
         public string? Address { get; set; }
