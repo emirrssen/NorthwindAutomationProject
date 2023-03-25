@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,10 +33,20 @@ namespace Business.Constants
         public static string OrdersListed = "Orders listed successfully!";
         public static string OrderListed = "Order listed successfully!";
 
-        internal static string ProductAdded = "Product added successfully!";
-        internal static string ProductDeleted = "Product deleted successfully!";
-        internal static string ProductsListed = "Products listed successfully!";
-        internal static string ProductUpdated = "Product updated successfully!";
-        internal static string ProductListed = "Product listed successfully!";
+        public static string ProductAdded = "Product added successfully!";
+        public static string ProductDeleted = "Product deleted successfully!";
+        public static string ProductsListed = "Products listed successfully!";
+        public static string ProductUpdated = "Product updated successfully!";
+        public static string ProductListed = "Product listed successfully!";
+
+        public static string UserAdded = "User added successfully!";
+        public static string UserListed = "User listed successfully!";
+        public static string UserUpdated = "User updated successfully!";
+        public static string FieldsCannotBeSame = "Fields cannot be same!";
+        public static string AccessTokenCreated = "Access token created successfully!";
+        public static string UserNotFound = "User not found!";
+        public static string SuccessfulLogin = "Successful login!";
+        public static string UserAlreadyExists = "User already exists!";
+        public static string ClaimAdded = "Claim added successfully!";
     }
 }

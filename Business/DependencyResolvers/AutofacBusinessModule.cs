@@ -4,7 +4,9 @@ using Business.Abstract;
 using Business.Concrete;
 using Castle.DynamicProxy;
 using Core.Utilities.Interceptors;
+using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
+using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -32,6 +34,15 @@ namespace Business.DependencyResolvers
 
             builder.RegisterType<EfProductDal>().As<IProductDal>();
             builder.RegisterType<ProductManager>().As<IProductService>();
+
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
+
+            builder.RegisterType<AuthManager>().As<IAuthService>();
+            builder.RegisterType<JWTHelper>().As<ITokenHelper>();
+
+            builder.RegisterType<EfUserOperationClaimDal>().As<IUserOperationClaimDal>();
+            builder.RegisterType<UserOperationClaimManager>().As<IUserOperationClaimService>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

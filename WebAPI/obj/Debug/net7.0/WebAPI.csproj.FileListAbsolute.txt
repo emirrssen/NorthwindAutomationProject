@@ -82,3 +82,5 @@ C:\Users\emirr\OneDrive\Belgeler\My Projects\Financial Stability Portfolio\North
 C:\Users\emirr\OneDrive\Belgeler\My Projects\Financial Stability Portfolio\NorthwindAutomationProject\WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
 C:\Users\emirr\OneDrive\Belgeler\My Projects\Financial Stability Portfolio\NorthwindAutomationProject\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
 C:\Users\emirr\OneDrive\Belgeler\My Projects\Financial Stability Portfolio\NorthwindAutomationProject\WebAPI\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\emirr\OneDrive\Belgeler\My Projects\Financial Stability Portfolio\NorthwindAutomationProject\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\emirr\OneDrive\Belgeler\My Projects\Financial Stability Portfolio\NorthwindAutomationProject\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
