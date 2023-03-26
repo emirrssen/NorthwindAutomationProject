@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Security.JWT
 {
-    public class JWTHelper
+    public class JWTHelper : ITokenHelper
     {
         public IConfiguration Configuration { get; }
         private TokenOptions _tokenOptions;
