@@ -6,7 +6,6 @@ using Castle.DynamicProxy;
 using Core.Utilities.Interceptors;
 using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
-using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -43,6 +42,12 @@ namespace Business.DependencyResolvers
 
             builder.RegisterType<EfUserOperationClaimDal>().As<IUserOperationClaimDal>();
             builder.RegisterType<UserOperationClaimManager>().As<IUserOperationClaimService>();
+
+            builder.RegisterType<EfCommentDal>().As<ICommentDal>();
+            builder.RegisterType<CommentManager>().As<ICommentService>();
+
+            builder.RegisterType<EfReplyDal>().As<IReplyDal>();
+            builder.RegisterType<ReplyManager>().As<IReplyService>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

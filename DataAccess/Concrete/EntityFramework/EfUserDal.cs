@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Concrete
+namespace DataAccess.Concrete.EntityFramework
 {
     public class EfUserDal : EfEntityRepositoryBase<User, NorthwindContext>, IUserDal
     {
@@ -25,7 +25,7 @@ namespace DataAccess.Concrete
                                  OperationClaimId = operationClaim.OperationClaimId,
                                  Name = operationClaim.Name
                              };
-                
+
                 return result.ToList();
             }
         }
