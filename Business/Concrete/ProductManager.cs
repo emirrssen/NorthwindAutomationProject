@@ -60,5 +60,11 @@ namespace Business.Concrete
             var result = _productDal.GetProductDetails();
             return new SuccessDataResult<List<ProductDetailsDto>>(result, Messages.ProductListed);
         }
+
+        public IDataResult<List<Product>> GetProductsByCategoryId(int categoryId)
+        {
+            var result = _productDal.GetAll(x => x.CategoryId == categoryId);
+            return new SuccessDataResult<List<Product>>(result, Messages.ProductsListed);
+        }
     }
 }

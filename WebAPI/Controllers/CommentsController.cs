@@ -70,5 +70,16 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+
+        [HttpGet("GeyByUserId")]
+        public IActionResult GetCommentsByUserId(int userId)
+        {
+            var result = _commentService.GetCommentsByUserId(userId);
+            if (!result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }

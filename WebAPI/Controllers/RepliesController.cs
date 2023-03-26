@@ -70,5 +70,16 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+
+        [HttpGet("GetByCommentId")]
+        public IActionResult GetRepliesByCommentId(int commentId)
+        {
+            var result = _replyService.GetRepliesByCommentId(commentId);
+            if (!result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }
