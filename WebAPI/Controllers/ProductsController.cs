@@ -91,5 +91,16 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+
+        [HttpGet("GetByPriceRange")]
+        public IActionResult GetProductsByPriceRange(decimal minValue, decimal maxValue)
+        {
+            var result = _productService.GetProductsByUnitPriceRange(minValue, maxValue);
+            if (!result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }

@@ -18,5 +18,6 @@ namespace Business.Abstract
         IDataResult<List<Product>> GetAllProducts();
         IDataResult<List<ProductDetailsDto>> GetProductDetails();
         IDataResult<List<Product>> GetProductsByCategoryId(int categoryId);
+        IDataResult<List<Product>> GetProductsByUnitPriceRange(decimal minValue, decimal maxValue);
     }
 }

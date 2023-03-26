@@ -66,5 +66,11 @@ namespace Business.Concrete
             var result = _productDal.GetAll(x => x.CategoryId == categoryId);
             return new SuccessDataResult<List<Product>>(result, Messages.ProductsListed);
         }
+
+        public IDataResult<List<Product>> GetProductsByUnitPriceRange(decimal minValue, decimal maxValue)
+        {
+            var result = _productDal.GetAll(x => x.UnitPrice >= minValue && x.UnitPrice <= maxValue);
+            return new SuccessDataResult<List<Product>>(result, Messages.ProductsListed);
+        }
     }
 }
