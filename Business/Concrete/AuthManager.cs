@@ -78,6 +78,10 @@ namespace Business.Concrete
                 Email = userForRegisterDto.Email,
                 FirstName = userForRegisterDto.FirstName,
                 LastName = userForRegisterDto.LastName,
+                Address = userForRegisterDto.Address,
+                Country = userForRegisterDto.Country,
+                City = userForRegisterDto.City,
+                Phone = userForRegisterDto.Phone,
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
                 Status = true

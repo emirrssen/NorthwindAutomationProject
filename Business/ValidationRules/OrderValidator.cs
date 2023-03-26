@@ -13,9 +13,17 @@ namespace Business.ValidationRules
         public OrderValidator()
         {
             RuleFor(x => x.ProductId).NotNull();
-            RuleFor(x => x.CustomerId).NotNull();
+            RuleFor(x => x.ProductId).NotEmpty();
+
+            RuleFor(x => x.UserId).NotNull();
+            RuleFor(x => x.UserId).NotEmpty();
+
             RuleFor(x => x.EmployeeId).NotNull();
+            RuleFor(x => x.EmployeeId).NotEmpty();
+
             RuleFor(x => x.OrderDate).NotNull();
+            RuleFor(x => x.OrderDate).NotEmpty();
+
             RuleFor(x => x.OrderDate).LessThanOrEqualTo(DateTime.Today);
         }
     }

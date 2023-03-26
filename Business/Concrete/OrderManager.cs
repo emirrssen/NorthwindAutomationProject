@@ -53,5 +53,11 @@ namespace Business.Concrete
             var result = _orderDal.Get(x => x.OrderId == orderId);
             return new SuccessDataResult<Order>(result, Messages.OrderListed);
         }
+
+        public IDataResult<List<Order>> GetOrdersByUserId(int userId)
+        {
+            var result = _orderDal.GetAll(x => x.UserId == userId);
+            return new SuccessDataResult<List<Order>>(result, Messages.OrdersListed);
+        }
     }
 }

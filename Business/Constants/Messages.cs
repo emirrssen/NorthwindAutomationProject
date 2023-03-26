@@ -15,12 +15,6 @@ namespace Business.Constants
         public static string CategoriesListed = "Categories listed successfully!";
         public static string CategoryListed = "Category listed successfully!";
 
-        public static string CustomerAdded = "Customer added successfully!";
-        public static string CustomerDeleted = "Customer deleted successfully!";
-        public static string CustomerUpdated = "Customer updated successfully!";
-        public static string CustomersListed = "Customers listed successfully!";
-        public static string CustomerListed = "Customer listed successfully!";
-
         public static string EmployeeAdded = "Employee added successfully!";
         public static string EmployeeDeleted = "Employee deleted successfully!";
         public static string EmployeeUpdated = "Employee updated successfully!";

@@ -15,5 +15,6 @@ namespace Business.Abstract
         IResult DeleteOrder(Order order);
         IDataResult<Order> GetOrderById(int orderId);
         IDataResult<List<Order>> GetAllOrders();
+        IDataResult<List<Order>> GetOrdersByUserId(int userId);
     }
 }
