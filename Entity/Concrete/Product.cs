@@ -15,5 +15,7 @@ namespace Entity.Concrete
         public string? QuantityPerUnit { get; set; }
         public decimal? UnitPrice { get; set; }
         public short? UnitsInStock { get; set; }
+        public int TotalRates { get; set; }
+        public int NumberOfRates { get; set; }
     }
 }

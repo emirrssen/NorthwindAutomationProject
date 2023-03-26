@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -22,6 +23,7 @@ namespace Business.Concrete
             _cartItemDal = cartItemDal;
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(CartItemValidator))]
         public IResult AddCartItem(CartItem cartItem)
         {
@@ -29,12 +31,14 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ItemAdded);
         }
 
+        [TransactionAspect]
         public IResult DeleteCartItem(CartItem cartItem)
         {
             _cartItemDal.Delete(cartItem);
             return new SuccessResult(Messages.ItemDeleted);
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(CartItemValidator))]
         public IResult UpdateCartItem(CartItem cartItem)
         {
@@ -47,5 +51,7 @@ namespace Business.Concrete
             var result = _cartItemDal.GetAll(x => x.UserId == userId);
             return new SuccessDataResult<List<CartItem>>(result, Messages.ItemsListed);
         }
+
+
     }
 }

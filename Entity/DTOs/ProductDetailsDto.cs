@@ -15,5 +15,6 @@ namespace Entity.DTOs
         public string? QuantityPerUnit { get; set; }
         public decimal? UnitPrice { get; set; }
         public short? UnitsInStock { get; set; }
+        public double Rate { get; set; }
     }
 }

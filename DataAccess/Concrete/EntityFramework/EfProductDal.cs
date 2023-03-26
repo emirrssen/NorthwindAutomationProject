@@ -26,7 +26,8 @@ namespace DataAccess.Concrete.EntityFramework
                                  CategoryName = category.CategoryName,
                                  QuantityPerUnit = p.QuantityPerUnit,
                                  UnitPrice = p.UnitPrice,
-                                 UnitsInStock = p.UnitsInStock
+                                 UnitsInStock = p.UnitsInStock,
+                                 Rate = p.TotalRates / p.NumberOfRates
                              };
 
                 return result.ToList();

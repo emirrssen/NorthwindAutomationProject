@@ -43,6 +43,14 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductUpdated);
         }
 
+        public IResult RateProduct(Product product, int rate)
+        {
+            product.NumberOfRates++;
+            product.TotalRates += rate;
+            _productDal.Update(product);
+            return new SuccessResult(Messages.ProductRated);
+        }
+
         public IDataResult<List<Product>> GetAllProducts()
         {
             var result = _productDal.GetAll();

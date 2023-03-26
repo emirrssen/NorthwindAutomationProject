@@ -32,6 +32,7 @@ namespace Business.Constants
         public static string ProductsListed = "Products listed successfully!";
         public static string ProductUpdated = "Product updated successfully!";
         public static string ProductListed = "Product listed successfully!";
+        public static string ProductRated = "Product rated successfully!";
 
         public static string UserAdded = "User added successfully!";
         public static string UserListed = "User listed successfully!";

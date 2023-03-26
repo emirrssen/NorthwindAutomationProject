@@ -14,6 +14,7 @@ namespace Business.Abstract
         IResult AddProduct(Product product);
         IResult UpdateProduct(Product product);
         IResult DeleteProduct(Product product);
+        IResult RateProduct(Product product, int rate);
         IDataResult<Product> GetProductById(int productId);
         IDataResult<List<Product>> GetAllProducts();
         IDataResult<List<ProductDetailsDto>> GetProductDetails();
