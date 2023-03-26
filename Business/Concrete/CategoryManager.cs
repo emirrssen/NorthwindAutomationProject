@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -22,6 +23,7 @@ namespace Business.Concrete
             _categoryDal = categoryDal;
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(CategoryValidator))]
         public IResult AddCategory(Category category)
         {
@@ -29,12 +31,14 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CategoryAdded);
         }
 
+        [TransactionAspect]
         public IResult DeleteCategory(Category category)
         {
             _categoryDal.Delete(category);
             return new SuccessResult(Messages.CategoryDeleted);
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(CategoryValidator))]
         public IResult UpdateCategory(Category category)
         {

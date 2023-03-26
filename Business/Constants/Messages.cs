@@ -60,5 +60,7 @@ namespace Business.Constants
         public static string ItemDeleted = "Item deleted successfully!";
         public static string ItemUpdated = "Item updated successfully!";
         public static string ItemsListed = "Items listed successfully!";
+        internal static string ListIsEmpty;
+        internal static string ProductQuantityIsZero;
     }
 }

@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects;
 using Business.Constants;
 using Business.ValidationRules;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -23,20 +25,26 @@ namespace Business.Concrete
             _replyDal = replyDal;
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(ReplyValidator))]
+        [SecuredOperation("user")]
         public IResult AddReply(Reply reply)
         {
             _replyDal.Add(reply);
             return new SuccessResult(Messages.ReplyAdded);
         }
 
+        [TransactionAspect]
+        [SecuredOperation("user")]
         public IResult DeleteReply(Reply reply)
         {
             _replyDal.Delete(reply);
             return new SuccessResult(Messages.ReplyDeleted);
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(ReplyValidator))]
+        [SecuredOperation("user")]
         public IResult UpdateReply(Reply reply)
         {
             _replyDal.Update(reply);

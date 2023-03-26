@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects;
 using Business.Constants;
 using Business.ValidationRules;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -22,20 +24,26 @@ namespace Business.Concrete
             _orderDal = orderDal;
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(OrderValidator))]
+        [SecuredOperation("user")]
         public IResult AddOrder(Order order)
         {
             _orderDal.Add(order);
             return new SuccessResult(Messages.OrderAdded);
         }
 
+        [TransactionAspect]
+        [SecuredOperation("user")]
         public IResult DeleteOrder(Order order)
         {
             _orderDal.Delete(order);
             return new SuccessResult(Messages.OrderDeleted);
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(OrderValidator))]
+        [SecuredOperation("user")]
         public IResult UpdateOrder(Order order)
         {
             _orderDal.Update(order);

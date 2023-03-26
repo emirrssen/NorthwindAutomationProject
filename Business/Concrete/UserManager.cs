@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.Entities.Concrete;
 using Core.Utilities.Results;
@@ -24,6 +25,7 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
+        [TransactionAspect]
         public IResult Add(User user)
         {
             _userDal.Add(user);
@@ -42,6 +44,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<OperationClaim>>(result);
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(UserForUpdateValidator))]
         public IResult Update(UserForUpdateDto userForUpdate)
         {

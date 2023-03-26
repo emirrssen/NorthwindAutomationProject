@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects;
 using Business.Constants;
 using Business.ValidationRules;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -22,20 +24,26 @@ namespace Business.Concrete
             _commentDal = commentDal;
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(CommentValidator))]
+        [SecuredOperation("user")]
         public IResult AddComment(Comment comment)
         {
             _commentDal.Add(comment);
             return new SuccessResult(Messages.CommentAdded);
         }
 
+        [TransactionAspect]
+        [SecuredOperation("user")]
         public IResult DeleteComment(Comment comment)
         {
             _commentDal.Delete(comment);
             return new SuccessResult(Messages.CommentDeleted);
         }
 
+        [TransactionAspect]
         [ValidationAspect(typeof(CommentValidator))]
+        [SecuredOperation("user")]
         public IResult UpdateComment(Comment comment)
         {
             _commentDal.Update(comment);
