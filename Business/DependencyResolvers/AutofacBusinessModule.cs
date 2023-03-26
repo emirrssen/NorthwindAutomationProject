@@ -49,6 +49,9 @@ namespace Business.DependencyResolvers
             builder.RegisterType<EfReplyDal>().As<IReplyDal>();
             builder.RegisterType<ReplyManager>().As<IReplyService>();
 
+            builder.RegisterType<EfCartItemDal>().As<ICartItemDal>();
+            builder.RegisterType<CartItemManager>().As<ICartItemService>();
+
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()

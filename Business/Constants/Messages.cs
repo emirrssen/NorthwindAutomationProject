@@ -49,16 +49,21 @@ namespace Business.Constants
         public static string UserAlreadyExists = "User already exists!";
         public static string ClaimAdded = "Claim added successfully!";
 
-        internal static string CommentAdded = "Comment added successfully!";
-        internal static string CommentDeleted = "Comment deleted successfully!";
-        internal static string CommentUpdated = "Comment updated successfully!";
-        internal static string CommentsListed = "Commments listed successfully!";
-        internal static string CommentListed = "Commnet listed successfully!";
+        public static string CommentAdded = "Comment added successfully!";
+        public static string CommentDeleted = "Comment deleted successfully!";
+        public static string CommentUpdated = "Comment updated successfully!";
+        public static string CommentsListed = "Commments listed successfully!";
+        public static string CommentListed = "Commnet listed successfully!";
 
-        internal static string ReplyAdded = "Reply added successfully!";
-        internal static string ReplyDeleted = "Reply deleted successfully!";
-        internal static string RepliesListed = "Replies listed successfully!";
-        internal static string ReplyUpdated = "Reply updated successfully!";
-        internal static string ReplyListed = "Reply listed successfully!";
+        public static string ReplyAdded = "Reply added successfully!";
+        public static string ReplyDeleted = "Reply deleted successfully!";
+        public static string RepliesListed = "Replies listed successfully!";
+        public static string ReplyUpdated = "Reply updated successfully!";
+        public static string ReplyListed = "Reply listed successfully!";
+
+        public static string ItemAdded = "Item added successfully!";
+        public static string ItemDeleted = "Item deleted successfully!";
+        public static string ItemUpdated = "Item updated successfully!";
+        public static string ItemsListed = "Items listed successfully!";
     }
 }

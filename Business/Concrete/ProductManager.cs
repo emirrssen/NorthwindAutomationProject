@@ -5,6 +5,7 @@ using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entity.Concrete;
+using Entity.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -53,5 +54,10 @@ namespace Business.Concrete
             var result = _productDal.Get(x => x.ProductId == productId);
             return new SuccessDataResult<Product>(result, Messages.ProductListed);
         }
+
+        //public IDataResult<List<ProductDetailsDto>> GetProductDetails()
+        //{
+            
+        //}
     }
 }
