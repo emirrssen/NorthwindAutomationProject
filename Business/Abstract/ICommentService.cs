@@ -15,6 +15,7 @@ namespace Business.Abstract
         IResult UpdateComment(Comment comment);
         IDataResult<List<Comment>> GetAllComments();
         IDataResult<Comment> GetCommentById(int commentId);
+        IDataResult<Comment> GetCommentsByUserId(int userId);
 
     }
 }

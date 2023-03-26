@@ -15,6 +15,7 @@ namespace Business.Abstract
         IResult UpdateReply(Reply reply);
         IDataResult<List<Reply>> GetAllReplies();
         IDataResult<Reply> GetReplyById(int replyId);
+        IDataResult<List<Reply>> GetRepliesByCommentId(int commentId);
 
     }
 }

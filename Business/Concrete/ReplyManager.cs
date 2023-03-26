@@ -54,5 +54,11 @@ namespace Business.Concrete
             var result = _replyDal.Get(x => x.ReplyId == replyId);
             return new SuccessDataResult<Reply>(result, Messages.ReplyListed);
         }
+
+        public IDataResult<List<Reply>> GetRepliesByCommentId(int commentId)
+        {
+            var result = _replyDal.GetAll(x => x.CommentId == commentId);
+            return new SuccessDataResult<List<Reply>>(result, Messages.RepliesListed);
+        }
     }
 }

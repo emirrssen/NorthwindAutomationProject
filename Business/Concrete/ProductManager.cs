@@ -55,9 +55,10 @@ namespace Business.Concrete
             return new SuccessDataResult<Product>(result, Messages.ProductListed);
         }
 
-        //public IDataResult<List<ProductDetailsDto>> GetProductDetails()
-        //{
-            
-        //}
+        public IDataResult<List<ProductDetailsDto>> GetProductDetails()
+        {
+            var result = _productDal.GetProductDetails();
+            return new SuccessDataResult<List<ProductDetailsDto>>(result, Messages.ProductListed);
+        }
     }
 }
