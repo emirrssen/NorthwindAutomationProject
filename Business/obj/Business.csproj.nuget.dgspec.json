@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj": {}
+    "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj": {
+    "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\emirr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emirr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj"
+              "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj"
+              "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -87,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj": {
+    "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\emirr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emirr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -180,21 +180,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\emirr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emirr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,8 +208,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj"
+              "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -249,21 +249,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj": {
+    "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\emirr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emirr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -277,8 +277,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\emirr\\OneDrive\\Belgeler\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj"
+              "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Win10\\Documents\\My Projects\\Financial Stability Portfolio\\NorthwindAutomationProject\\Core\\Core.csproj"
               }
             }
           }
@@ -308,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
